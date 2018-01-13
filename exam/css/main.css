@@ -1,0 +1,215 @@
+/* Adding gvnix styles css - NO COPIAR */
+  @import 'http://geo-gvnix.rhcloud.com/resources/styles/standard.css';
+ /* Custom fixed navs */
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.light {
+  font-weight: 400;
+}
+.navbar {
+  
+}
+.navbar-custom {
+  margin-bottom: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: black;
+}
+.navbar-custom .navbar-toggle {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2);
+  font-size: 12px;
+}
+.navbar-custom .navbar-toggle:focus,
+.navbar-custom .navbar-toggle:active {
+  outline: none;
+}
+.navbar-custom .navbar-brand {
+  font-weight: 700;
+}
+.navbar-custom .navbar-brand:focus {
+  outline: none;
+}
+.navbar-custom a {
+  color: white;
+}
+.navbar-custom .nav li a {
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+header {
+    margin-bottom: 75px;
+  }
+.navbar-custom .nav li a:hover {
+  color: rgba(255, 255, 255, 0.8);
+  outline: none;
+  background-color: transparent;
+}
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+  outline: none;
+  background-color: transparent;
+}
+.navbar-custom .nav li.active {
+  outline: none;
+}
+.navbar-custom .nav li.active a {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.navbar-custom .nav li.active a:hover {
+  color: white;
+}
+@media (min-width: 768px) {
+  .navbar-custom {
+    padding: 10px 0;
+    border-bottom: none;
+    letter-spacing: 1px;
+    background-color: #608224;
+border-color: #527711;
+    -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    -moz-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+  }
+  .navbar-custom.top-nav-collapse {
+    padding: 0;
+    background: green;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+}
+h3 {
+	font-family: 'Dancing script', cursive, fantasy, arial, sans-serif;
+	font-size: 2em;
+	text-align: center;
+	text-shadow: 2px ;
+}
+h5 {
+  font-family: cursive, fantasy, arial, sans-serif;
+  font-size: 2em;
+  text-align: center;
+  text-shadow: 2px ;
+  text-transform: uppercase;
+}
+h3.head{
+  font-size: 3em;
+  width:100%; 
+  height:68px;  
+  border:solid 1px #000;
+  border-color:#000 transparent transparent transparent;
+  border-radius: 50%/100px 100px 0 0;
+  background-color: #4f5b69;
+  color: #fff;
+}
+h4 {
+text-align: center;
+font-family: cursive;
+text-transform: uppercase;
+font-size: 1.6em;
+}
+div.slideshow div.item img {
+	height: auto;
+}
+caption {
+  font-size: 2em;
+}
+th, caption {
+  text-align: center;
+  font-family: cursive;
+  text-transform: uppercase;
+}
+tabsle.customers td{
+  text-align: center;
+}
+button a {
+  color:white;
+}
+/*=====test section=======*/
+.inner-bg {
+    padding: 100px 0 170px 0;
+}
+
+.top-content .text {
+  color: #fff;
+}
+
+.top-content .text h1 { 
+  color: #fff;
+  text-align: center;
+ }
+
+.top-content .description {
+  margin: 20px 0 10px 0;
+}
+
+.top-content .description p { opacity: 0.8; }
+
+.top-content .description a {
+  color: #fff;
+}
+.top-content .description a:hover, 
+.top-content .description a:focus { border-bottom: 1px dotted #fff; }
+
+.form-box {
+  margin-top: 35px;
+}
+
+.form-top {
+  overflow: hidden;
+  padding: 0 25px 15px 25px;
+  background: green;
+  -moz-border-radius: 4px 4px 0 0; -webkit-border-radius: 4px 4px 0 0; border-radius: 4px 4px 0 0;
+  text-align: left;
+}
+
+.form-top-left {
+  float: left;
+  width: 75%;
+  padding-top: 25px;
+}
+
+.form-top-left h3 { margin-top: 0; }
+
+.form-top-right {
+  float: left;
+  width: 25%;
+  padding-top: 5px;
+  font-size: 66px;
+  color: #ddd;
+  line-height: 100px;
+  text-align: right;
+}
+
+.form-bottom {
+  padding: 25px 25px 30px 25px;
+  background: #eee;
+  -moz-border-radius: 0 0 4px 4px; -webkit-border-radius: 0 0 4px 4px; border-radius: 0 0 4px 4px;
+  text-align: left;
+}
+
+.form-bottom form textarea {
+  height: 100px;
+}
+
+.form-bottom form button.btn {
+  width: 100%;
+}
+
+.form-bottom form .input-error {
+  border-color: #de995e;
+}
+label span {
+  margin-right: 2em;
+}
+div.ques {
+  border: 1px solid greenyellow;
+  padding: 1em;
+  margin-bottom: 1em;
+}
+div.tab-content {
+  font-size: 1.5em;
+}
