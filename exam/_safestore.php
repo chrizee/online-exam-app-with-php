@@ -37,4 +37,3 @@
   } catch(Exception $e) {
       die($e->getMessage());
   }
-?>
